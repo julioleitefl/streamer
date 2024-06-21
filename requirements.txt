@@ -1,0 +1,9 @@
+Flask
+python-dotenv
+logging
+flask_jwt_extended 
+psutil
+confluent-kafka
+opencv-python
+matplotlib
+av

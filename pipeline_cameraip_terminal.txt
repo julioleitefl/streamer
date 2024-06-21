@@ -1,0 +1,1 @@
+gst-launch-1.0 rtspsrc latency=0 tcp-timeout=200000 drop-on-latency=true location=rtsp://admin:admin123@192.168.1.108:554 ! decodebin ! videoconvert ! mfh265enc low-latency=true ! rtph265pay mtu=1316 ! srtsink uri=srt://34.230.172.138:9710
